@@ -47,6 +47,8 @@ form{
     height: 49px;
     border-bottom: 2px solid #f3f3f3;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .input_phone{
     width: 234px;
@@ -54,36 +56,60 @@ form{
     border: none;
     outline: none;
 }
+.area{
+    width: 92px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.area_btn{
+    height: 100%;
+    width: 100%;
+    background: #ffffff url(../../assets/svg.png) no-repeat center right;
+    border: none;
+    color: #8590a6;
+    outline: none;
+}
+.phone{
+    width: 234px;
+    height: 48px;
+}
+.shu{
+   line-height: 48px;
+   color: #ebebeb;
+   height: 22px;
+}
+.code{
+    width: 100%;
+    height: 80px;
+}
 .ver_code{
     width: 100%;
     height: 48px;
     border: none;
     outline: none;
 }
+.btn_code{
+    width: 158px;
+    font-size: 14px;
+    line-height: 48px;
+    cursor: pointer;
+    color: #175199;
+}
 .duanxin{
     display: flex;
     border-bottom: 2px solid #f3f3f3;
 }
-.options{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.tel_login{
-    padding-top: 12px;
-    font-size: 14px;
-    color: #175199;
-    cursor: pointer;
-}
 .voice{
     text-align: right;
+    padding-right: 12px;
     font-size: 14px;
     padding-top: 12px;
     cursor: pointer;
     color: #8590a6;
 }
-/* 登录 */
-.loginup{
+/* 注册 */
+.register{
     display: inline-block;
     width: 100%;
     height: 40px;
@@ -103,20 +129,22 @@ form{
     background: #ffffff;
     margin-top: 26px;
     font-size: 12px;
-    text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.org{
+    color: #175199;
+    cursor: pointer;
+}
+.xieyi{
+    color: #8a95aa;
 }
 .xieyi1{
     text-decoration: none;
     color: #8a95aa;
-    font-size: 14px;
 }
 .xieyi1:hover{
     color: #175199;
-}
-span{
-    color: #8a95aa;
 }
 /* 登录按钮 */
 .login{
