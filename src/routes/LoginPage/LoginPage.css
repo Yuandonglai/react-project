@@ -1,0 +1,187 @@
+.warp{
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/bg.png)no-repeat center center #b8e5f8;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 432px;
+    height: 504px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    margin-top: 17px;
+}
+.tit{
+    font-size: 64px;
+    color: #0084ff;
+}
+.text{
+    font-size: 22px;
+    color: #0084ff;
+}
+/* 内容 */
+.connect{
+    width: 432px;
+    height: 284px;
+    padding: 0 40px 36px;
+    box-sizing: border-box;
+}
+form{
+    width: 100%;
+    height: 207px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.tel{
+    width: 100%;
+    height: 49px;
+    border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input_phone{
+    width: 234px;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+.area{
+    width: 92px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.area_btn{
+    height: 100%;
+    width: 100%;
+    background: #ffffff url(../../assets/svg.png) no-repeat center right;
+    border: none;
+    color: #8590a6;
+    outline: none;
+}
+.phone{
+    width: 234px;
+    height: 48px;
+}
+.shu{
+   line-height: 48px;
+   color: #ebebeb;
+   height: 22px;
+}
+.code{
+    width: 100%;
+    height: 80px;
+}
+.ver_code{
+    width: 100%;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+.btn_code{
+    width: 158px;
+    font-size: 14px;
+    line-height: 48px;
+    cursor: pointer;
+    color: #175199;
+}
+.duanxin{
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+}
+.voice{
+    text-align: right;
+    padding-right: 12px;
+    font-size: 14px;
+    padding-top: 12px;
+    cursor: pointer;
+    color: #8590a6;
+}
+/* 注册 */
+.register{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background: #0084ff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.con_footer{
+    width: 100%;
+    height: 25px;
+    background: #ffffff;
+    margin-top: 26px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.org{
+    color: #175199;
+    cursor: pointer;
+}
+.xieyi{
+    color: #8a95aa;
+}
+.xieyi1{
+    text-decoration: none;
+    color: #8a95aa;
+}
+.xieyi1:hover{
+    color: #175199;
+}
+/* 登录按钮 */
+.login{
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    text-align: center; 
+    background: #f6f6f6;
+}
+.a{
+    display: inline-block;
+    color: #175199;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Select_list {
+    overflow: auto;
+    width: 30%;
+    position: absolute;
+    max-height: 300px;
+    padding: 8px 0;
+    border-radius: 4px;
+    background: #ffffff;
+    display: none;
+}
+.Select_option {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #8590a6;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+}
+.Select_option:hover{
+    background: #cccccc;
+}
