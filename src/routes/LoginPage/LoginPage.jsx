@@ -1,5 +1,4 @@
 import React from 'react'
-// import { connect } from 'dva';
 import styles from './LoginPage.css';
 import { withRouter } from 'dva/router';
 
@@ -43,6 +42,9 @@ class LoginPage extends React.Component {
         super();
         this.state = {};
     }
+    logins = ()=>{
+        console.log(this);
+    }
     render() {
         return (
             <div className={styles.warp}>
@@ -55,7 +57,7 @@ class LoginPage extends React.Component {
                         <form>
                             <div className={styles.tel}>
                                 <div className={styles.area}>
-                                    <button type="button" className={styles.area_btn}>中国&nbsp;+86</button>
+                                    <button type="button" className={styles.area_btn}  onClick={this.logins}>中国&nbsp;+86</button>
                                     <div className={styles.Select_list} role="listbox">
                                         <button className={styles.Select_option} id="Select3-0">中国 +86</button>
                                         <button className={styles.Select_option} id="Select3-1">美国 +1</button>
