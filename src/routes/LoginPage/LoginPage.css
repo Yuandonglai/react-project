@@ -49,7 +49,7 @@ form{
     margin-bottom: 10px;
 }
 .input_phone{
-    width: 234px;
+    width: 100%;
     height: 48px;
     border: none;
     outline: none;
@@ -97,12 +97,15 @@ form{
     outline: none;
     border: none;
 }
+.loginup:hover{
+    background: #0077e6;
+}
 .con_footer{
     width: 100%;
     height: 25px;
     background: #ffffff;
     margin-top: 26px;
-    font-size: 12px;
+    /* font-size: 12px; */
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -110,7 +113,7 @@ form{
 .xieyi1{
     text-decoration: none;
     color: #8a95aa;
-    font-size: 14px;
+    font-size: 12px;
 }
 .xieyi1:hover{
     color: #175199;

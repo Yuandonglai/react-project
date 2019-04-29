@@ -2,9 +2,13 @@ import React from 'react'
 import styles from './LoginPage.css';
 import { withRouter } from 'dva/router';
 class LoginPage extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {}
+    }
+    Tosign=()=>{
+        this.props.history.push('./sign')
+        // console.log(this);
     }
     render() {
         return (
@@ -24,6 +28,7 @@ class LoginPage extends React.Component {
                             <div className={styles.code}>
                                 <div className={styles.duanxin}>
                                     <input type="text" className={styles.ver_code} placeholder="密码" />
+                                    <i></i>
                                 </div>
                                 <div className={styles.options}>
                                     <p className={styles.tel_login}>手机验证码登录</p>
@@ -42,7 +47,7 @@ class LoginPage extends React.Component {
                     </div>
                     <div className={styles.login}>
                         <span>没有账号？</span>
-                        <a href="javascript:;" className={styles.a}>注册</a>
+                        <a href="javascript:;" className={styles.a} onClick={this.Tosign}>注册</a>
                     </div>
                 </div>
             </div>

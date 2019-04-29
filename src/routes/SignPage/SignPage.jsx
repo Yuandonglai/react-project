@@ -42,6 +42,9 @@ class SignPage extends React.Component {
         super(props);
         this.state = {};
     }
+    Tologin=()=>{
+        this.props.history.push('/')
+    }
     render() {
         return (
             <div className={styles.warp}>
@@ -107,7 +110,7 @@ class SignPage extends React.Component {
                     </div>
                     <div className={styles.login}>
                         <span>已有账号？</span>
-                        <a href="javascript:;" className={styles.a}>登录</a>
+                        <a href="javascript:;" className={styles.a} onClick={this.Tologin}>登录</a>
                     </div>
                 </div>
             </div>
